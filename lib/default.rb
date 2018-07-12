@@ -5,8 +5,8 @@ require 'nanoc/cachebuster'
 
 include Nanoc::Helpers::LinkTo
 include Nanoc::Helpers::Rendering
-include Nanoc3::Helpers::Blogging
-include Nanoc3::Helpers::Tagging
+include Nanoc::Helpers::Blogging
+include Nanoc::Helpers::Tagging
 include Nanoc::Helpers::CacheBusting
 
 module BlogHelper

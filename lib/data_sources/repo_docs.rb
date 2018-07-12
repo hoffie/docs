@@ -1,6 +1,6 @@
 # TODO(ts): Rewrite data source and use one single instance to combine all
 # different versions for a given path.
-class RepoDocsDataSource < ::Nanoc::DataSources::FilesystemUnified
+class RepoDocsDataSource < ::Nanoc::DataSources::Filesystem
   identifier :repo_docs
 
   PATH = "repositories"
